@@ -1,4 +1,4 @@
-const backend = "https://YOUR_BACKEND_URL.vercel.app"; // canza zuwa URL na server ɗinka
+const backend = "https://my-ai-vwgh.vercel.app/"; // canza zuwa URL na server ɗinka
 
 async function generateText() {
   const prompt = document.getElementById("prompt").value;
