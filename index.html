@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ha">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Hausa Assistant (Gemini)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🤖 AI Hausa Assistant</h1>
+  <textarea id="prompt" placeholder="Rubuta tambayarka a nan..."></textarea><br>
+  <button onclick="generateText()">🔤 Samu Amsa</button>
+  <button onclick="generateImage()">🖼️ Samar da Hoto</button>
+
+  <h2>Sakamako:</h2>
+  <div id="result"></div>
+  <img id="ai-image" style="max-width:100%;display:none"/>
+
+  <script src="app.js"></script>
+</body>
+</html>
